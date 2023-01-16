@@ -24,11 +24,11 @@ function Experties() {
               {/* === */}
             <ExpertiesCard title="Frontend development" description="I always enjoy Creating quite beautiful UI/UX everyday. I try to explore new UI trends whenever I free." iconClass="ion-camera" />
               {/* === */}
-            <ExpertiesCard title="Graphic Design" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia." iconClass="ion-paintbrush"/>
+            {/* <ExpertiesCard title="Graphic Design" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia." iconClass="ion-paintbrush"/> */}
               {/* === */}
             <ExpertiesCard title="Distro Hopping" description="Distro hopping became my fav since I've got to know more about Distributions and Desktop Enviromeents." />
               {/* === */}
-            <ExpertiesCard title="Marketing Services" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia." iconClass="ion-stats-bars" />
+            {/* <ExpertiesCard title="Marketing Services" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia." iconClass="ion-stats-bars" /> */}
         </div>
         </div>
     </section>
