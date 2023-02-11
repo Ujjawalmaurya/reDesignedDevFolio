@@ -1,3 +1,2 @@
-# Portfolio website made in React with JavaScript
+# Portfolio webapp made in Flutter with Dart
 
-![](./ss.png)
