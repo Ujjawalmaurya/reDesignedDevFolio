@@ -25,7 +25,7 @@ function Projects() {
 
             <ProjectCard href='https://github.com/Ujjawalmaurya/KWiZ' img='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXOcEfuGD3FUfSBWGP86vD6faeERFXThgMyJfBJYgBhMREF8FtThd775lbXnuUbOqTJtg&usqp=CAU' title='KWiZ' description='Web Design' date='18 Sep. 2018' />
 
-            <ProjectCard href='https://github.com/Ujjawalmaurya/FullStackToDo' title='Tull Stack To-Do web app' description='Full stack To-do web app' date='Jan 9, 2023'/>
+            <ProjectCard href='https://github.com/Ujjawalmaurya/FullStackToDo' title='Full Stack To-Do web app' description='Full stack To-do web app' date='Jan 9, 2023'/>
 
             <ProjectCard href='https://ujjawalmaurya.github.io/DrumKitProject' title='Drum-Kit web app' description='Drumming web appl' date='Jan 7, 2023'
                 // img='https://github.com/Ujjawalmaurya/DrumKitProject/raw/master/screenshots/01.png'

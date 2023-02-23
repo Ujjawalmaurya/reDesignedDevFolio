@@ -1,5 +1,15 @@
 import React from 'react'
 import BlogsCard from '../Cards/BlogsCard'
+import array from '../images/blogs/array.png'
+import css_box from '../images/blogs/css-box.png'
+import css_position from '../images/blogs/css-position.png'
+import css_selector from '../images/blogs/css-selector.png'
+import flutter_stripe from '../images/blogs/flutter-stripe.png'
+import html_elements from '../images/blogs/html-elements.png'
+import md from '../images/blogs/md.png'
+import tailwind from '../images/blogs/tailwind.png'
+import git from '../images/blogs/git.jpg'
+import interview from '../images/blogs/interview.png'
 
 function Blogs() {
     return (
@@ -19,25 +29,25 @@ function Blogs() {
             </div>
         </div>
         <div className="row">
-            <BlogsCard title='Stripe Payments in Flutter' image='https://ujjawalmauryaum.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1673602439439%2Fcb3fa109-cb7c-4498-bfbe-8fc3936501dc.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75' href='https://ujjawalmauryaum.hashnode.dev/stripe-payments-with-flutter' category='Coding App Payment Stripe Flutter'/>
+            <BlogsCard title='Stripe Payments in Flutter' image={flutter_stripe} category='Coding App Payment Stripe Flutter'/>
 
-            <BlogsCard title='HTML Elements' description='' image='https://ujjawalmauryaum.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1673448239296%2F31a9ca2b-1e5a-4031-9833-d5fc964fc2af.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75' href='https://ujjawalmauryaum.hashnode.dev/html-elements' category='Coding Web HTML'  />
+            <BlogsCard title='HTML Elements' description='' image={html_elements} href='https://ujjawalmauryaum.hashnode.dev/html-elements' category='Coding Web HTML'  />
 
-            <BlogsCard title='CSS Box Model' description='' image='https://ujjawalmauryaum.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1673448273300%2F8b957efe-6d4b-45d3-89f4-701b2eb1d0bf.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75' href='https://ujjawalmauryaum.hashnode.dev/css-box-model' category='Coding Web'/>
+            <BlogsCard title='CSS Box Model' description='' image={css_box} href='https://ujjawalmauryaum.hashnode.dev/css-box-model' category='Coding Web'/>
 
-            <BlogsCard title='JavaScript Interview Cheatsheet' description='' image='https://ujjawalmauryaum.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1672831622417%2F39f80567-18c4-4484-b699-6dfdde977c85.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75' href='https://ujjawalmauryaum.hashnode.dev/javascript-interview-preparation-cheatsheet' category='Coding Web Js' />
+            <BlogsCard title='JavaScript Interview Cheatsheet' description='' image={interview} href='https://ujjawalmauryaum.hashnode.dev/javascript-interview-preparation-cheatsheet' category='Coding Web Js' />
 
-            <BlogsCard title='Getting Started with Tailwind CSS' description='' image='https://ujjawalmauryaum.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1673025961455%2F39ebec1e-3bbe-460f-8f7e-4f9c4d3acade.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75' href='https://ujjawalmauryaum.hashnode.dev/getting-started-with-tailwind-css' category='Coding CSS Web' />
+            <BlogsCard title='Getting Started with Tailwind CSS' description='' image={tailwind} href='https://ujjawalmauryaum.hashnode.dev/getting-started-with-tailwind-css' category='Coding CSS Web' />
 
-            <BlogsCard title='Array -JavaScript' description='' image='https://ujjawalmauryaum.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1668484909486%2FKB0PEMgS5.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75' href='https://ujjawalmauryaum.hashnode.dev/deep-dive-in-array-in-javascript' category='Js Coding Web'/>
+            <BlogsCard title='Array -JavaScript' description='' image={array} category='Js Coding Web'/>
 
-            <BlogsCard title='CSS Selectors' description='' image='https://ujjawalmauryaum.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1668521684089%2Fq7CgWrKeH.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75' href='https://ujjawalmauryaum.hashnode.dev/css-selectors' category='Coding Web'/>
+            <BlogsCard title='CSS Selectors' description='' image={css_selector} href='https://ujjawalmauryaum.hashnode.dev/css-selectors' category='Coding Web'/>
 
-            <BlogsCard title='Markdown.md' description='' image='https://ujjawalmauryaum.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1673530085130%2F25b58468-a226-4129-a968-6add13760e3d.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75' href='https://ujjawalmauryaum.hashnode.dev/markdownmd' category='Structure Document'/>
+            <BlogsCard title='Markdown.md' description='' image={md} href='https://ujjawalmauryaum.hashnode.dev/markdownmd' category='Structure Document'/>
 
-            <BlogsCard title='Basics of Git' description='' image='https://ujjawalmauryaum.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1667375129398%2F2O9yUmB6w.jpg%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75' href='https://ujjawalmauryaum.hashnode.dev/basics-of-git' category='Coding VCS Git Github'/>
+            <BlogsCard title='Basics of Git' description='' image={git} href='https://ujjawalmauryaum.hashnode.dev/basics-of-git' category='Coding VCS Git Github'/>
 
-            <BlogsCard title='CSS Positions' description='' image='https://ujjawalmauryaum.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1668582376793%2Fz9CsC_zLq.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75' href='https://ujjawalmauryaum.hashnode.dev/css-positions' category='Web CSS'/>
+            <BlogsCard title='CSS Positions' description='' image={css_position} href='https://ujjawalmauryaum.hashnode.dev/css-positions' category='Web CSS'/>
         </div>
         </div>
     </section>
