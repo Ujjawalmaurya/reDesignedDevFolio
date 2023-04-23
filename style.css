@@ -6,15 +6,15 @@
 
 body {
 	background-color: #28223F;
+    /* background: #333; */
 	font-family: Montserrat, sans-serif;
-	
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-
 	min-height: 100vh;
 	margin: 0;
+    padding: 0;
 }
 
 h3 {
@@ -65,8 +65,7 @@ button.primary {
 	background-color: #03BFCB;
 	border: 1px solid #03BFCB;
 	border-radius: 3px;
-	color: #231E39;
-	font-family: Montserrat, sans-serif;
+	color: #605496;
 	font-weight: 500;
 	padding: 10px 25px;
 }
@@ -78,7 +77,7 @@ button.primary.ghost {
 
 .skills {
 	background-color: #1F1A36;
-	text-align: left;
+	text-align: center;
 	padding: 15px;
 	margin-top: 30px;
 }
@@ -98,41 +97,30 @@ button.primary.ghost {
 	padding: 7px;
 }
 
-footer {
-    background-color: #222;
-    color: #fff;
-    font-size: 14px;
-    bottom: 0;
-    position: fixed;
-    left: 0;
-    right: 0;
-    text-align: center;
-    z-index: 999;
+.social {
+	background-color: #2a224d;
+	text-align: center;
+	padding: 15px;
 }
 
-footer p {
-    margin: 10px 0;
+.social ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
 }
 
-footer i {
-    color: red;
+.social ul li {
+	border: 1.5px solid #453688;
+	border-radius: 3px;
+	display: inline-block;
+	font-size: 14px;
+	margin: 0 5px 5px 0;
+	padding: 8px;
 }
-
 
 /* 02 */
 
 
-body {
-    margin: 0;
-    padding: 0;
-    min-height: 100vh;
-    background: #333;
-    display: flex;
-    justify-content: center;
-    align-items: center;   
-    font-family: sans-serif;
-    /* background-color: #f1f1f1;  */
-}
 
 .container {
     width: 1000px;
@@ -258,7 +246,8 @@ i {
 
 a {
     text-decoration: none;
-    color: #414141;
+    /* color: #414141; */
+    color: #fff;
 }
 
 
